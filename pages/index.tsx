@@ -1,14 +1,12 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable @typescript-eslint/space-before-function-paren */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
-
+import { useEffect } from 'react'
 export default function Home() {
+    useEffect(() => {
+        AOS.init()
+    }, [])
   return (
     <>
     <section>
@@ -90,10 +88,10 @@ export default function Home() {
                 <div className="col-lg-6 col-12 d-lg-block d-none">
                     <div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
                         <div className="position-relative" data-aos="zoom-in">
-                            <img src="./assets/img/Header-1.png" className="img-fluid" alt=""/>
+                            <img src="/img/Header-1.png" className="img-fluid" alt=""/>
                             <div className="card left-card position-absolute border-0">
                                 <div className="d-flex align-items-center mb-16 gap-3">
-                                    <img src="./assets/img/Header-2.png" width="40" height="40" className="rounded-pill"
+                                    <img src="/img/Header-2.png" width="40" height="40" className="rounded-pill"
                                         alt=""/>
                                     <div>
                                         <p className="text-sm fw-medium color-palette-1 m-0">Shayna Anne</p>
@@ -135,7 +133,7 @@ export default function Home() {
                             </div>
                             <div className="card right-card position-absolute border-0">
                                 <div className="position-relative d-flex flex-row justify-content-center mb-24">
-                                    <img src="./assets/img/Header-3.png" className="rounded-pill" alt=""/>
+                                    <img src="/img/Header-3.png" className="rounded-pill" alt=""/>
                                     <p className="right-card-support text-white text-xxs text-center position-absolute m-0">
                                         New</p>
                                 </div>
@@ -258,7 +256,7 @@ export default function Home() {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-1.png" width="205" height="270" alt=""/>
+                            <img src="/img/Thumbnail-1.png" width="205" height="270" alt=""/>
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -282,7 +280,7 @@ export default function Home() {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-2.png" width="205" height="270" alt=""/>
+                            <img src="/img/Thumbnail-2.png" width="205" height="270" alt=""/>
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -306,7 +304,7 @@ export default function Home() {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-3.png" width="205" height="270" alt=""/>
+                            <img src="/img/Thumbnail-3.png" width="205" height="270" alt=""/>
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -330,7 +328,7 @@ export default function Home() {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-4.png" width="205" height="270" alt=""/>
+                            <img src="/img/Thumbnail-4.png" width="205" height="270" alt=""/>
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -354,7 +352,7 @@ export default function Home() {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-5.png" width="205" height="270" alt=""/>
+                            <img src="/img/Thumbnail-5.png" width="205" height="270" alt=""/>
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -414,7 +412,7 @@ export default function Home() {
         <div className="container-xxl container-fluid">
           <div className="row align-items-center px-lg-5 mx-auto gap-lg-0 gap-4">
             <div className="col-lg-7 col-12 d-lg-flex d-none justify-content-lg-end pe-lg-60" data-aos="zoom-in">
-              <img src="./assets/img/Header-9.png" width="612" height="452" className="img-fluid" alt="" />
+              <img src="/img/Header-9.png" width="612" height="452" className="img-fluid" alt="" />
             </div>
             <div className="col-lg-5 col-12 ps-lg-60">
               <div>
