@@ -2,6 +2,7 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 import '@/styles/utilities.css'
 import '@/styles/homepage.css'
+import '@/styles/detail.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
