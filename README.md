@@ -1,4 +1,14 @@
-<h3>Website ini bertujuan untuk membuat sebuah sistem pembelian online voucher game</h3>
-<h4>Dengan menggunakan framework Next Js,React Js,dan Back end menggunakan Node Js dan Expres Js <br>Databasenya menggunakan Mongo DB</h4>
-<P>#ON PROGRES</P>
+<h3>Website Top Up Voucher Game</h3>
+
+<h2>#ON PROGRESS</h2>
+<h3>Pembuatannya menggunakan : </h3>
+<ul>
+  <li>JavaScript</li>
+  <li>React JS</li>
+  <li>Next Js</li>
+  <li>TypeScript</li>
+  <li>Node Js</li>
+  <li>Express Js</li>
+  <li>Mongo DB</li>
+</ul>
 
